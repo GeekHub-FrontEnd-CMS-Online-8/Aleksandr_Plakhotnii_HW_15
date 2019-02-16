@@ -1,0 +1,85 @@
+#wrapper {
+    width: 767px;
+    margin: 0 auto;
+}
+
+fieldset {
+    padding-bottom: 20px;
+}
+
+fieldset, .briefly-about-yourself div, .more-about-yourself div select[size="3"] {
+    margin-top: 20px;
+}
+
+.briefly-about-yourself input[type="number"] {
+    width: 50px;
+    margin-right: 3px;
+}
+
+.briefly-about-yourself input[type="text"] {
+    width: 250px;
+}
+
+legend, span {
+    font-weight: bold;
+}
+
+.more-about-yourself input[type="date"] {
+    width: 168px;
+    height: 17px;
+}
+
+.more-about-yourself input[type="date"], .more-about-yourself input[type="text"] {
+    margin-right: 7px;
+}
+
+.more-about-yourself span {
+    display: block;
+    padding: 20px 0 13px;
+}
+
+.more-about-yourself div label span {
+    padding: 20px 0 0;
+}
+
+textarea {
+    display: block;
+    width: 360px;
+    height: 150px;
+}
+
+.more-about-yourself div select {
+    width: 150px;
+}
+
+.and label input[type="text"] {
+    width: 250px;
+}
+
+.and span {
+    margin-top: 17px;
+    display: block;
+}
+
+.and .no-style {
+    margin: 0 0 15px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.no-style div label[type="radio"] {
+    padding-top: 5px;
+}
+
+.abb {
+    margin-top: 15px;
+}
+
+form input[type="submit"] {
+    margin: 20px 0;
+}
+
+
+
+
+
