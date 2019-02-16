@@ -20,7 +20,7 @@ $floor = $_POST['floor'];
 $age = $_POST['age'];
 $email = "'". $_POST['email'] ."'";
 
-$sql = "INSERT INTO about (name, age, surname) VALUES ($name, $surname, $floor, $email, $age)";
+$sql = "INSERT INTO about (name, surname, floor, email, age) VALUES ($name, $surname, $floor, $email, $age)";
 
 if (mysqli_query($conn, $sql)) {
     echo "New record created successfully";
